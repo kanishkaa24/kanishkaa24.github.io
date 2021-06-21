@@ -1,9 +1,6 @@
-body {
+html, body {
     font-family: 'Poppins';
     overflow-x: hidden;
-    width: 100%;
-    border-width: 0px;
-    scroll-behavior: none;
 }
 
 .navbar{
@@ -26,7 +23,6 @@ body {
 
 .navbar li a:hover{
     color:black;
-    font-weight: bolder;
 }
 
 .dropbtn {
@@ -42,7 +38,7 @@ body {
     right:0px;
     display:block;
     float: right;
-    margin-right: 30px;
+    margin-right: 55px;
 }
 
 .dropdown-content {
@@ -68,4 +64,47 @@ body {
   
 .dropdown:hover .dropbtn {
     background-color: black;
+}
+
+.image{
+    height: 60vh;
+    width: 60vh;
+    border-radius: 50%;
+    float: left;
+    margin: 10vh 20vh 10vh 20vh;
+}
+
+.name h1{
+    font-weight: 200;
+    font-size: 8vh;
+    margin:0px;
+    line-height: 10vh;
+    text-align: center;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 35vh;
+}
+
+.introduction{
+    display: inline;
+    float: right;
+    height: 80vh;
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+    .image{
+        width: 80vw;
+        height: 80vw;
+        margin: 8vw 8vw 8vw 8vw;
+    }
+    .name h1{
+        font-size: 15vw;
+        line-height: 16vw;
+        padding: 0px;
+    }
+    .introduction{
+        height: 35vw;
+        margin: 0px;
+    }
 }

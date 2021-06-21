@@ -5,14 +5,15 @@
         <meta charset = "UTF-8">
         <link href="style.css" rel = "stylesheet">
         <meta name="keywords" content="Kanishka Aggarwal">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge ,chrome=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge ,chrome=1"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
         <meta name="description" content="Hey! I am Kanishka Aggarwal. This is my website.">
         <script src="https://kit.fontawesome.com/24a476b79d.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header>    
+        <header>   
+            <!-- Navigation Bar  -->
             <ul class = "navbar" id = "topnav">
                 <li style="float:left;"><a href = "https://stdntpartners-my.sharepoint.com/:b:/g/personal/kanishka_aggarwal_studentambassadors_com/EYuoayZSH7RFjiEx8oau-s0Beh4sBU83w3YqbDRD2trn1Q?e=xLsYxA" target = "_blank">RESUME</a></li>
                 <li><a href = "#contactme">CONTACT</a></li>
@@ -40,6 +41,18 @@
                     </div>
                 </div>
             </ul>
+            <br>
+            <!-- About Section -->
+            <a href = "#aboutme"></a>
+            <div class = "About">
+                <div class = "imagediv">
+                    <img class = "image" src = "source/image/myimage.jpeg">
+                </div>
+                <div class = "introduction">
+                    <div class = "name"><h1>KANISHKA AGGARWAL</h1></div>
+                    <p></p>
+                </div>
+            </div>
         </header>
         <footer id = "#contactme">
         </footer>
@@ -48,7 +61,7 @@
     <script>
         var w = window.innerWidth;
         var h = window.innerHeight;
-        if(w <= 850){
+        if(w <= 1000){
             document.getElementById("topnav").style.display = "none";
             document.getElementById("sidenav").style.display = "block";
         }
