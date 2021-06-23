@@ -51,7 +51,7 @@
                 <img class = "image" src = "source/image/myimage.jpeg">
             </div>
             <div class = "introduction">
-                <div class = "name">Kanishka Aggarwal</div>
+                <div class = "name" id = "myname">Kanishka Aggarwal</div>
                 <br>
                 <p class = "aboutmetext">
                     Hello! &#128400;
@@ -83,6 +83,7 @@
         if(w <= 1100){
             document.getElementById("topnav").style.display = "none";
             document.getElementById("sidenav").style.display = "block";
+            document.getElementById("myname").style.textTransform = "uppercase";
         }
         else{
             document.getElementById("topnav").style.display = "block";

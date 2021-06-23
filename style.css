@@ -121,18 +121,33 @@ html, body {
     padding-left: 2vw;
 }
 
+.education{
+    width: 99vw;
+}
+
 @media screen and (max-width: 1350px) {
     .image{
         margin: 12.5vh 0vh 12.5vh 5vw;
     }
     .introduction{
         padding-left: 4vw;
+        height: fit-content;
+    }
+    .education{
+        width: 99vw;
     }
 }
 
 @media screen and (max-width: 1300px) {
     .introduction{
         padding-left: 10vw;
+        height: fit-content;
+    }
+    .education{
+        width: 99vw;
+    }
+    .education{
+        width: 99vw;
     }
 }
 
@@ -149,6 +164,7 @@ html, body {
     }
 
     .introduction{
+        height: fit-content;
         padding-left:1vw;
         margin: 0vw;
         width: 98vw;
@@ -162,6 +178,9 @@ html, body {
         margin-left: 0px ;
         font-size: 4vh;
     } 
+    .education{
+        width: 99vw;
+    }
 }
 
 @media screen and (max-width: 850px) {
@@ -172,10 +191,11 @@ html, body {
         padding-bottom: 0vw;
     }
     .name{
-        font-size: 12vw;
-        line-height: 16vw;
+        font-size: 40px;
+        line-height: 42px;
         margin: 0vw;
         padding-top: 3vw;
+        font-weight: 500;
     }
     .introduction{
         height: fit-content;
@@ -195,6 +215,9 @@ html, body {
         width: 96vw;
         margin-left: 0px ;
         font-size: 16px;
+    }
+    .education{
+        width: 99vw;
     } 
 }
 
