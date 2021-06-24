@@ -145,7 +145,7 @@ html, body {
     color: rgb(0, 47, 255);
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1000px) {
     .image{
         width: 70vw;
         height: 70vw;
