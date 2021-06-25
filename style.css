@@ -164,8 +164,38 @@ html, body {
     margin-bottom: 10vh;
 }
 
+.skillbox{
+    width: 60vw;
+    padding-left: 15vw;
+    margin-bottom: 8vh;
+}
+
+.skill .subtitle{
+    color: rgb(37, 37, 37);
+    font-size: 1vw;
+    font-weight: 100;
+    padding: 0vw 0vw 0vw 13.5vw;
+    line-height: 2vw;
+    margin-bottom: 10vh;
+}
+
+.skillbox img{
+    width: 5vw;
+    height: 5vw;
+    padding-right: 10vw;
+}
+
 .work{
     width: 99vw;
+}
+
+.skill .title{
+    color: rgb(37, 37, 37);
+    font-size: 2.5vw;
+    font-weight: 400;
+    padding: 7vw 0vw 0vw 13vw;
+    line-height: 2.5vw;
+    margin-bottom: 10vh;
 }
 
 @media screen and (max-width: 1000px) {
@@ -233,6 +263,31 @@ html, body {
         margin-bottom: 40px;
         padding-left: 2.1vw;
         font-weight: 100;
+    }
+    .skill .title{
+        padding-top: 40px;
+        font-size: 20px;
+        line-height: 35px;
+        margin-bottom: 0px;
+        padding-left: 2vw;
+    }
+    .skill .subtitle{
+        padding-top: 20px;
+        font-size: 16px;
+        line-height: 35px;
+        margin-bottom: 40px;
+        padding-left: 2.1vw;
+        font-weight: 100;
+    }
+    .skillbox{
+        margin: 0px 0px 25px 0px;
+        padding-left: 2.5vw;
+        width: 95vw;
+    }
+    .skillbox img{
+        width: 15vw;
+        height: 15vw;
+        padding-right: 15vw;
     }
 }
 
