@@ -164,7 +164,7 @@ html, body {
     margin-bottom: 10vh;
 }
 
-.skillbox{
+.skillbox, .skillbox1{
     width: 60vw;
     padding-left: 15vw;
     margin-bottom: 8vh;
@@ -183,6 +183,12 @@ html, body {
     width: 5vw;
     height: 5vw;
     padding-right: 10vw;
+}
+
+.skillbox1 img{
+    width: 5vw;
+    height: 5vw;
+    padding-right: 6.25vw;
 }
 
 .work{
@@ -245,6 +251,7 @@ html, body {
     }
     .content1 h1 {
         font-size: 16px;
+        font-weight: bolder;
     }
     .work{
         width: 99vw;
@@ -279,7 +286,7 @@ html, body {
         padding-left: 2.1vw;
         font-weight: 100;
     }
-    .skillbox{
+    .skillbox, .skillbox1{
         margin: 0px 0px 25px 0px;
         padding-left: 2.5vw;
         width: 95vw;
@@ -288,6 +295,11 @@ html, body {
         width: 15vw;
         height: 15vw;
         padding-right: 15vw;
+    }
+    .skillbox1 img{
+        width: 10vw;
+        height: 10vw;
+        padding-right: 11vw;
     }
 }
 
