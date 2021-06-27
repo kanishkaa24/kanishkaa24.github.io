@@ -249,7 +249,7 @@ html, body {
     position: fixed;
     font-size: 20px;
     color: white;
-    background-color: rgb(0, 47, 255);
+    background-color: rgb(146, 146, 146);
     padding:8px;
     bottom: 10px;
     right: 10px;
@@ -261,10 +261,67 @@ html, body {
 
 .top:hover{
     font-size: 25px;
+    padding: 5px;
+    background-color: black;
 }
 
 .top a:visited{
     color: white;
+}
+
+.bar{
+    width: 20vw;
+    margin-left: 15vw;
+    margin-bottom: 5vh;
+    height: 20px;
+    margin-top: 0px;
+    border-radius: 10px;
+    background-color: rgb(214, 214, 214);
+}
+
+.bar1{
+    width: 14vw;
+    height: 20px;
+    margin-top: 0px;
+    border-radius: 10px;
+    background-color: rgb(0, 110, 255);
+}
+
+.bar2{
+    width: 16vw;
+    height: 20px;
+    margin-top: 0px;
+    border-radius: 10px;
+    background-color: rgb(0, 110, 255);
+}
+
+.bar3{
+    width: 11vw;
+    height: 20px;
+    margin-top: 0px;
+    border-radius: 10px;
+    background-color: rgb(0, 110, 255);
+}
+
+.bar4{
+    width: 14vw;
+    height: 20px;
+    margin-top: 0px;
+    border-radius: 10px;
+    background-color: rgb(0, 110, 255);
+}
+
+.content2{
+    width: 60vw;
+    padding-left: 15vw;
+    margin-bottom: 1vh;
+}
+
+.content2 h1{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -365,7 +422,7 @@ html, body {
         padding-right: 11vw;
     }
     .skill .icons{
-        margin: 0px 0px 25px 0px;
+        margin: 0px;
         padding-left: 2.5vw;
         width: 95vw;
     }
@@ -388,6 +445,51 @@ html, body {
     .contact .icon a{
         font-size: 10vw;
         padding-right: 10vw;
+    }
+    .content2{
+        margin: 0px 0px 15px 0px;
+        padding-left: 2.5vw;
+        width: 95vw;
+    }
+    .content2 h1 {
+        font-size: 20px;
+    }
+    .bar{
+        width: 70vw;
+        margin-left: 2.5vw;
+        margin-bottom: 5vh;
+        height: 16px;
+        margin-top: 0px;
+        border-radius: 8px;
+        background-color: rgb(168, 167, 167);
+    }
+    .bar1{
+        width: 49vw;
+        height: 16px;
+        margin-top: 0px;
+        border-radius: 8px;
+        background-color: rgb(0, 110, 255);
+    }
+    .bar2{
+        width: 56vw;
+        height: 16px;
+        margin-top: 0px;
+        border-radius: 10px;
+        background-color: rgb(0, 110, 255);
+    }
+    .bar3{
+        width: 38.5vw;
+        height: 16px;
+        margin-top: 0px;
+        border-radius: 8px;
+        background-color: rgb(0, 110, 255);
+    }
+    .bar4{
+        width: 49vw;
+        height: 16px;
+        margin-top: 0px;
+        border-radius: 8px;
+        background-color: rgb(0, 110, 255);
     }
 }
 
