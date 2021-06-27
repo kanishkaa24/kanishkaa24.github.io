@@ -220,6 +220,21 @@ html, body {
     color: black;
 }
 
+.achievement .title{
+    color: rgb(37, 37, 37);
+    font-size: 2.5vw;
+    font-weight: 400;
+    padding: 7vw 0vw 0vw 13vw;
+    line-height: 2.5vw;
+    margin-bottom: 10vh;
+}
+
+.achievement .img{
+    padding: 5vw 0vw 0vw 16vw;
+    width: 35vw;
+    height: 22vw;
+}
+
 .contact .title{
     color: rgb(37, 37, 37);
     font-size: 2.5vw;
@@ -248,7 +263,6 @@ html, body {
 .top{
     position: fixed;
     font-size: 20px;
-    color: white;
     background-color: rgb(146, 146, 146);
     padding:8px;
     bottom: 10px;
@@ -263,6 +277,10 @@ html, body {
     font-size: 25px;
     padding: 5px;
     background-color: black;
+}
+
+.top a{
+    color: white;
 }
 
 .top a:visited{
@@ -430,6 +448,13 @@ html, body {
         font-size: 15vw;
         padding-right: 15vw;
     }
+    .achievement .title{
+        padding-top: 40px;
+        font-size: 20px;
+        line-height: 35px;
+        margin-bottom: 0px;
+        padding-left: 2vw;
+    }
     .contact .title{
         padding-top: 40px;
         font-size: 20px;
@@ -490,6 +515,11 @@ html, body {
         margin-top: 0px;
         border-radius: 8px;
         background-color: rgb(0, 110, 255);
+    }
+    .achievement .img{
+        padding: 5vw 0vw 0vw 7.5vw;
+        width: 80vw;
+        height: 60vw;
     }
 }
 
