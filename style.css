@@ -245,13 +245,6 @@ html, body {
     color: black;
 }
 
-footer{
-    text-align: center;
-    width: 95vw;
-    font-size: 20px;
-    padding-top:15vh;
-}
-
 .top{
     position: fixed;
     font-size: 20px;
