@@ -204,19 +204,13 @@ html, body {
     margin-bottom: 10vh;
 }
 
-.skill .icons{
-    width: 60vw;
-    padding-left: 15vw;
-    margin-bottom: 8vh;
+.icons a{
+    color: rgb(0, 110, 255);
+    font-size: 2vw;
+    padding-right: 1.5vw;
 }
 
-.skill .icons a{
-    color: rgb(146, 146, 146);
-    font-size: 4vw;
-    padding-right: 11vw;
-}
-
-.skill .icons a:hover{
+.icons a:hover{
     color: black;
 }
 
@@ -266,7 +260,7 @@ html, body {
 .top{
     position: fixed;
     font-size: 20px;
-    background-color: rgb(146, 146, 146);
+    background-color: rgb(0, 110, 255);
     padding:8px;
     bottom: 10px;
     right: 10px;
